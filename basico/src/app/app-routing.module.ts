@@ -8,17 +8,17 @@ const routes: Routes = [
 	{
 		path: 'botones', 
 		component: EncabezadoComponent
-	}
+	},
 	{
 		path: 'home', 
 		component: HomeComponent
-	}
+	},
 	{
 		//path: '', component: HomeComponent
 		path: '', 
 		redirectTo: 'home',
 		pathMatch: 'full'
-	}
+	},
 	{
 		path: 'botones', 
 		component: BotonesComponent

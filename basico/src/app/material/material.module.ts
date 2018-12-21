@@ -5,10 +5,12 @@ import { MatToolbarModule,
 			MatButtonModule, 
 			MatIconModule, 
 			MatExpansionModule,
-			MatInputModule
+			MatInputModule,
+			MatListModule
 			} from '@angular/material';
 import { BotonesComponent } from './botones/botones.component';
 import { InpFieldsComponent } from './inp-fields/inp-fields.component';
+import { ListsComponent } from './lists/lists.component';
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { InpFieldsComponent } from './inp-fields/inp-fields.component';
 	MatButtonModule,
 	MatIconModule,
 	MatExpansionModule,
-	MatInputModule
+	MatInputModule,
+	MatListModule
   ],
   exports:[
 	EncabezadoComponent,
@@ -27,7 +30,7 @@ import { InpFieldsComponent } from './inp-fields/inp-fields.component';
 	MatIconModule,
 	BotonesComponent
   ],
-  declarations: [EncabezadoComponent, BotonesComponent, InpFieldsComponent]
+  declarations: [EncabezadoComponent, BotonesComponent, InpFieldsComponent, ListsComponent]
 })
 
 export class MaterialModule { }
